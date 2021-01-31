@@ -234,7 +234,7 @@ main (void)
     tcase_add_test (tc_core, the_file_is_remote);
     /* *********************************** */
 
-    return  mctest_run_all (tc_core);
+    return mctest_run_all (tc_core);
 }
 
 /* --------------------------------------------------------------------------------------------- */
